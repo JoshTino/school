@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body, html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+@theme {
+      --font-donegal: "Donegal One", serif;
+      --font-inria: "Inria Sans", sans-serif;
+      --color-lightred: rgba(237, 83, 44, 0.53);
+      --color-customred: #ED532C;
+      --color-figblue: #3880C3;
+      --color-maroon: #911111;
+      --color-gold: #f59e0b;
+}
