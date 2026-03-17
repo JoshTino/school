@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <motion.header
-      className="sticky top-0 bg-white shadow z-50"
+      className="fixed w-full top-0 bg-white shadow z-50"
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -57,7 +57,7 @@ export default function Navbar() {
           animate={{ rotate: open ? 180 : 0 }}
           transition={{ duration: 0.3 }}
         >
-          {open ? <X size={45} /> : <Menu size={45} />}
+          {open ? <X size={40} /> : <Menu size={40} />}
         </motion.button>
 
       </nav>
