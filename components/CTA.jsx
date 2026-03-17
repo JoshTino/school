@@ -9,7 +9,7 @@ return(
 	Admissions Open for the New Academic Session
 	</h2>
 	
-	<a href="https://wa.me/08162616820" className="bg-gold px-8 py-4 rounded-lg font-semibold">
+	<a href="https://wa.me/09131434467" className="bg-gold px-8 py-4 rounded-lg font-semibold">
 	Apply Now
 	</a>
 </div>

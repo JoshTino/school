@@ -68,7 +68,7 @@ export default function Hero() {
         >
 
           <motion.a
-            href="https://wa.me/08162616820"
+            href="https://wa.me/09131434467"
             className="bg-maroon cursor-pointer px-6 py-3 rounded-lg hover:bg-red-900"
             whileHover={{ y: -4, scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
