@@ -25,7 +25,7 @@ export default function Academics(){
 
       <div className="max-w-6xl mx-auto md:px-4">
 
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-3xl font-bold text-center mb-12 font-nunito">
           Academic Programs
         </h2>
 
@@ -58,11 +58,11 @@ export default function Academics(){
               >
                 <Icon className="text-maroon mb-4"/>
 
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-xl font-semibold mb-2 font-nunito">
                   {p.title}
                 </h3>
 
-                <p className="text-gray-600">
+                <p className="text-gray-600 font-nunito">
                   {p.description}
                 </p>
 

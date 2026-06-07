@@ -22,7 +22,7 @@ export default function Stats(){
           transition={{duration:.6}}
           className="bg-maroon text-white rounded-full size-25 flex flex-col items-center justify-center"
           >
-            <h2 className="text-3xl font-bold text-white">
+            <h2 className="text-3xl font-bold text-white font-nunito">
               <CountUp end={stat.number} duration={3}/>+
             </h2>
 

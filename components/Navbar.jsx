@@ -38,7 +38,7 @@ export default function Navbar() {
             <motion.a
               key={link}
               href={`#${link.toLowerCase()}`}
-              className="hover:text-maroon"
+              className="hover:text-maroon font-nunito"
               variants={{
                 hidden: { opacity: 0, y: -10 },
                 visible: { opacity: 1, y: 0 }

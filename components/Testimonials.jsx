@@ -24,7 +24,7 @@ return(
 
 <section className="py-20 bg-white">
 
-	<h2 className="text-3xl font-bold text-center mb-5">
+	<h2 className="text-3xl font-bold text-center mb-5 font-nunito">
           Testimonials
      </h2>
 
@@ -53,15 +53,15 @@ transition={{ duration:0.5 }}
 whileHover={{ y:-8, scale:1.03 }}
 >
 
-<p className="italic mb-4">
+<p className="italic mb-4 font-nunito">
 "{t.quote}"
 </p>
 
-<h4 className="font-semibold">
+<h4 className="font-semibold font-nunito">
 {t.name}
 </h4>
 
-<span className="text-sm text-gray-500">
+<span className="text-sm text-gray-500 font-nunito">
 {t.role}
 </span>
 

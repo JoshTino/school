@@ -16,7 +16,7 @@ export default function Gallery() {
     <section id="gallery" className="py-20">
       <div className="max-w-6xl mx-auto px-4">
 
-        <h2 className="text-center font-serif text-3xl mb-10">Gallery</h2>
+        <h2 className="text-center font-nunito text-3xl mb-10">Gallery</h2>
 
         <motion.div
           className="grid md:grid-cols-3 gap-6"

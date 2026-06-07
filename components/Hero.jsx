@@ -38,7 +38,7 @@ export default function Hero() {
       >
 
         <motion.h1
-          className="font-serif text-5xl mb-6"
+          className="font-nunito text-5xl mb-6"
           variants={{
             hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 }
@@ -49,7 +49,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          className="mb-6"
+          className="mb-6 font-nunito"
           variants={{
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 }
@@ -69,7 +69,7 @@ export default function Hero() {
 
           <motion.a
             href="https://wa.me/09131434467"
-            className="bg-maroon cursor-pointer px-6 py-3 rounded-lg hover:bg-red-900"
+            className="bg-maroon font-nunito cursor-pointer px-6 py-3 rounded-lg hover:bg-red-900"
             whileHover={{ y: -4, scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -78,7 +78,7 @@ export default function Hero() {
 
           <motion.a
             href="tel:0913 143 4467"
-            className="bg-green-700 cursor-pointer text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black"
+            className="bg-green-700 font-nunito cursor-pointer text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black"
             whileHover={{ y: -4, scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

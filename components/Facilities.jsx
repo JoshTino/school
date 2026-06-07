@@ -115,7 +115,7 @@ className="cursor-pointer bg-white rounded-xl shadow hover:shadow-xl transition 
 
 <Icon className="text-maroon" size={28}/>
 
-<h3 className="font-semibold">
+<h3 className="font-semibold font-nunito">
 {facility.title}
 </h3>
 
@@ -157,7 +157,7 @@ className="rounded-lg mb-4 w-full h-40 object-cover"
 initial={{opacity:0,y:10}}
 animate={{opacity:1,y:0}}
 transition={{delay:0.15}}
-className="text-gray-600 text-sm"
+className="text-gray-600 text-sm font-nunito"
 >
 {facility.description}
 </motion.p>

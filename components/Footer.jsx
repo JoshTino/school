@@ -9,18 +9,18 @@ return(
 <div className="max-w-6xl mx-auto px-5 grid md:grid-cols-3 gap-8">
 
 <div>
-<h3 className="font-bold text-lg">
+<h3 className="font-bold text-lg font-nunito">
 Treasure Field College
 </h3>
-<p>Jos, Plateau State</p>
+<p className="font-nunito">Jos, Plateau State</p>
 </div>
 
 <div>
 {/*<h4 className="font-semibold mb-2">Quick Links</h4>*/}
 <ul className="space-y-1">
-<a href="#gallery"><li>Gallery</li></a>
-<a href="#academics"><li>Academics</li></a>
-<a href="#facilities"><li>Facilities</li></a>
+<a href="#gallery" className="font-nunito"><li>Gallery</li></a>
+<a href="#academics" className="font-nunito"><li>Academics</li></a>
+<a href="#facilities" className="font-nunito"><li>Facilities</li></a>
 </ul>
 </div>
 
@@ -32,7 +32,7 @@ Treasure Field College
 
 </div>
 
-<p className="text-center mt-6 text-sm">
+<p className="text-center mt-6 text-sm font-nunito">
 © {new Date().getFullYear()} Treasure Field College
 </p>
 
