@@ -75,7 +75,7 @@ export default function Navbar() {
             <motion.a
               key={link}
               href={`#${link.toLowerCase()}`}
-              className="py-2 text-maroon font-bold"
+              className="py-2 text-maroon font-bold font-nunito"
               whileHover={{ scale: 1.05 }}
             >
               {link}
