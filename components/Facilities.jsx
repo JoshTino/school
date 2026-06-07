@@ -96,7 +96,7 @@ Facilities
 {facilities.map((facility,i)=>{
 
 const Icon = facility.icon
-const isOpen = openIndex === i
+const isOpen = true /*openIndex === i*/
 
 return(
 
